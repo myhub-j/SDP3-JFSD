@@ -1,0 +1,55 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/background.jpg'); /* Background image path */
+    background-size: cover; /* Cover the viewport */
+    background-position: center; /* Center the background image */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Content box styling */
+.content {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    padding: 40px;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    border: 2px solid #4CAF50; /* Green border */
+}
+
+/* Heading styling */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for readability */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Back button styling */
+.back-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}
